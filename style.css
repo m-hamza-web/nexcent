@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*,body {
+
+*,
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-      font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
-.container {
-    width: 1300px;
+.bg_gray {
+    background-color: #f5f7fa
 }
+
 h1 {
-font-weight: 600;
-font-size: 64px;
-line-height: 76px;
-color: rgba(77, 77, 77, 1);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: rgba(77, 77, 77, 1);
 }
 
 span {
@@ -26,64 +29,67 @@ span {
 
 p {
     font-family: Inter;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
 }
 
 .bt {
     padding: 14px 32px;
     background-color: #4caf4f;
     color: #ffffff;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-width: 128px;
-border-radius: 4px;
-border: none;
-cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 128px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
+
 h2 {
-font-weight: 600;
-font-size: 36px;
-line-height: 44px;
-color: #4d4d4d;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4d4d4d;
 }
-.container-two {
-    width: 1152px;
-    margin: auto;
+
+
+
+
+
+
+.clients  {
+        flex: 48px 0 0;
 }
+
 
 
 
 @media only screen and (min-width:200px) and (max-width:575px) {
 
-    .container {
+    /* .container {
         overflow: hidden;
     }
 
      .container-two {
         overflow: hidden;
-    }
+    } */
 
     h1 {
-font-weight: 400;
-font-size: 34px;
-line-height: 40px;
-color: rgba(77, 77, 77, 1);
-}
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 40px;
+        color: rgba(77, 77, 77, 1);
+    }
 
 
 }
 
-@media only screen and (min-width:576px) and (max-width:980px) {
+@media only screen and (min-width:576px) and (max-width:980px) {}
 
-
-
-}
-
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
 
     .container,
     .container-lg,
@@ -94,5 +100,4 @@ color: rgba(77, 77, 77, 1);
         max-width: 1320px;
     }
 }
-
-
+ */
